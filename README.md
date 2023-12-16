@@ -1,7 +1,22 @@
 # NoelA
 
+## Setup environment
 
-Source code for [One-shot to Weakly-Supervised Relation Classification using Language Models](https://openreview.net/forum?id=W0mr06PxTHp) in AKBC 2021
+```bash
+pip install -r requirements.txt
+```
 
 
-Coming soon!
+## Usage
+
+
+### Step 1
+
+```bash
+
+```
+
+### Step 2
+```bash
+
+```
