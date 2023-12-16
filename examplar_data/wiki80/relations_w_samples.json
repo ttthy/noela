@@ -1,0 +1,1442 @@
+[
+    {
+        "relation": "place served by transport hub",
+        "template": "[X] is a transport hub in [Y] .",
+        "description": "city or region served by this transport hub (airport, train station, etc.)",
+        "type": "",
+        "label": "P931",
+        "sentence": "Luton Airport is an international airport in London .",
+        "head_mention": "Luton Airport",
+        "tail_mention": "London",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            45,
+            51
+        ]
+    },
+    {
+        "relation": "mountain range",
+        "template": "[X] belongs to mountain range of [Y] .",
+        "description": "range or subrange to which the geographical item belongs",
+        "type": "",
+        "label": "P4552",
+        "sentence": "The Tour Noir is a mountain in the Mont Blanc massif .",
+        "head_mention": "Tour Noir",
+        "tail_mention": "Mont Blanc massif",
+        "head_position": [
+            4,
+            13
+        ],
+        "tail_position": [
+            35,
+            52
+        ]
+    },
+    {
+        "relation": "religion",
+        "template": "[X] 's religion is [Y] .",
+        "description": "religion of a person, organization or religious building, or associated with this subject",
+        "type": "",
+        "label": "P140",
+        "sentence": "Henry VIII 's religion is Church of England .",
+        "head_mention": "Henry VIII",
+        "tail_mention": "Church of England",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            26,
+            43
+        ]
+    },
+    {
+        "relation": "participating team",
+        "template": "[Y] team played in [X] .",
+        "description": "Like ’Participant’ (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with ’member of sports team’ (P54)’ as a qualifier for the individuals)",
+        "type": "",
+        "label": "P1923",
+        "sentence": "Manchester United F.C. competes in the Premier League .",
+        "head_mention": "Premier League",
+        "tail_mention": "Manchester United",
+        "head_position": [
+            39,
+            53
+        ],
+        "tail_position": [
+            0,
+            17
+        ]
+    },
+    {
+        "relation": "contains administrative territorial entity",
+        "template": "[Y] is a territorial entity in [X] .",
+        "description": "(list of) direct subdivisions of an administrative territorial entity",
+        "type": "",
+        "label": "P150",
+        "sentence": "Ho Chi Minh City is a territorial entity in Vietnam .",
+        "head_mention": "Vietnam",
+        "tail_mention": "Ho Chi Minh City",
+        "head_position": [
+            44,
+            51
+        ],
+        "tail_position": [
+            0,
+            16
+        ]
+    },
+    {
+        "relation": "head of government",
+        "template": "[Y] is the head of government in [X] .",
+        "description": "head of the executive power of this town, city, municipality, state, country, or other governmental body",
+        "type": "",
+        "label": "P6",
+        "sentence": "Barack Obama is the 44th president of the United States .",
+        "head_mention": "United States",
+        "tail_mention": "Barack Obama",
+        "head_position": [
+            42,
+            55
+        ],
+        "tail_position": [
+            0,
+            12
+        ]
+    },
+    {
+        "relation": "country of citizenship",
+        "template": "[X] is [Y] .",
+        "description": "the object is a country that recognizes the subject as its citizen",
+        "type": "",
+        "label": "P27",
+        "sentence": "Marco Polo was an Italian explorer .",
+        "head_mention": "Marco Polo",
+        "tail_mention": "Italian",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            18,
+            25
+        ]
+    },
+    {
+        "relation": "original network",
+        "template": "[X] first aired on [Y] .",
+        "description": "network(s) the radio or television show was originally aired on, including",
+        "type": "",
+        "label": "P449",
+        "sentence": "One litre of tears was first aired on Fuji TV .",
+        "head_mention": "One litre of tears",
+        "tail_mention": "Fuji TV",
+        "head_position": [
+            0,
+            18
+        ],
+        "tail_position": [
+            38,
+            45
+        ]
+    },
+    {
+        "relation": "heritage designation",
+        "template": "[X] is listed on [Y] .",
+        "description": "heritage designation of a historical site",
+        "type": "",
+        "label": "P1435",
+        "sentence": "City of Bath is listed on UNESCO World Heritage Site .",
+        "head_mention": "City of Bath",
+        "tail_mention": "UNESCO World Heritage Site",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            26,
+            52
+        ]
+    },
+    {
+        "relation": "performer",
+        "template": "[Y] performed [X] .",
+        "description": "performer involved in the performance or the recording of a work",
+        "type": "",
+        "label": "P175",
+        "sentence": "Abbey Road is the eleventh studio album by the Beatles .",
+        "head_mention": "the Beatles",
+        "tail_mention": "Abbey Road",
+        "head_position": [
+            43,
+            54
+        ],
+        "tail_position": [
+            0,
+            10
+        ]
+    },
+    {
+        "relation": "participant of",
+        "template": "[X] participated in [Y] .",
+        "description": "participant of",
+        "type": "",
+        "label": "P1344",
+        "sentence": "Molly Hocking participated in The Voice UK 2019 .",
+        "head_mention": "Molly Hocking",
+        "tail_mention": "The Voice UK 2019",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            30,
+            47
+        ]
+    },
+    {
+        "relation": "position held",
+        "template": "[X] is the [Y] .",
+        "description": "position held",
+        "type": "",
+        "label": "P39",
+        "sentence": "Barack Obama is the 44th president of the United States .",
+        "head_mention": "Barack Obama",
+        "tail_mention": "president of the United States",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            25,
+            55
+        ]
+    },
+    {
+        "relation": "has part",
+        "template": "[Y] is part of [X] .",
+        "description": "part of this subject",
+        "type": "",
+        "label": "P527",
+        "sentence": "Germany is part of European Union .",
+        "head_mention": "European Union",
+        "tail_mention": "Germany",
+        "head_position": [
+            19,
+            33
+        ],
+        "tail_position": [
+            0,
+            7
+        ]
+    },
+    {
+        "relation": "location of formation",
+        "template": "[X] was formed in [Y] .",
+        "description": "location where a group or organization was formed",
+        "type": "",
+        "label": "P740",
+        "sentence": "Facebook was founded in Massachusetts .",
+        "head_mention": "Facebook",
+        "tail_mention": "Massachusetts",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            24,
+            37
+        ]
+    },
+    {
+        "relation": "located on terrain feature",
+        "template": "[X] is located in [Y] .",
+        "description": "located on the specified landform",
+        "type": "",
+        "label": "P706",
+        "sentence": "Heard Island is located in the Indian Ocean .",
+        "head_mention": "Heard Island",
+        "tail_mention": "Indian Ocean",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            31,
+            43
+        ]
+    },
+    {
+        "relation": "architect",
+        "template": "The architecture of [X] was designed by [Y] .",
+        "description": "person or architectural firm that designed this building",
+        "type": "",
+        "label": "P84",
+        "sentence": "The architecture of Eiffel Tower was designed by Gustave Eiffel .",
+        "head_mention": "Eiffel Tower",
+        "tail_mention": "Gustave Eiffel",
+        "head_position": [
+            20,
+            32
+        ],
+        "tail_position": [
+            49,
+            63
+        ]
+    },
+    {
+        "relation": "country of origin",
+        "template": "[X] was from [Y] .",
+        "description": "country of origin of the creative work or subject item",
+        "type": "",
+        "label": "P495",
+        "sentence": "Parasite is a 2019 South Korean black comedy .",
+        "head_mention": "Parasite",
+        "tail_mention": "South Korean",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            19,
+            31
+        ]
+    },
+    {
+        "relation": "publisher",
+        "template": "[X] is published by [Y] .",
+        "description": "organization or person responsible for publishing books, periodicals, games or software",
+        "type": "",
+        "label": "P123",
+        "sentence": "Harry Potter was published by Scholastic .",
+        "head_mention": "Harry Potter",
+        "tail_mention": "Scholastic",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            30,
+            40
+        ]
+    },
+    {
+        "relation": "director",
+        "template": "[X] was directed by [Y] .",
+        "description": "director(s) of this motion picture, TV-series, stageplay, video game or similar",
+        "type": "",
+        "label": "P57",
+        "sentence": "Joker was directed by Todd Phillips .",
+        "head_mention": "Joker",
+        "tail_mention": "Todd Phillips",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            22,
+            35
+        ]
+    },
+    {
+        "relation": "father",
+        "template": "[X] 's father is [Y] .",
+        "description": "father",
+        "type": "",
+        "label": "P22",
+        "sentence": "Fred Trump is Donald Trump 's father .",
+        "head_mention": "Donald Trump",
+        "tail_mention": "Fred Trump",
+        "head_position": [
+            14,
+            26
+        ],
+        "tail_position": [
+            0,
+            10
+        ]
+    },
+    {
+        "relation": "developer",
+        "template": "[X] was developed by [Y] .",
+        "description": "organisation or person that developed this item",
+        "type": "",
+        "label": "P178",
+        "sentence": "The Witcher was developed by CD Projekt .",
+        "head_mention": "The Witcher",
+        "tail_mention": "CD Projekt",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            29,
+            39
+        ]
+    },
+    {
+        "relation": "military branch",
+        "template": "[X] was in the military [Y] .",
+        "description": "branch to which this military unit, award, office, or person belongs, e.g. Royal Navy",
+        "type": "",
+        "label": "P241",
+        "sentence": "Arthur Mackenzie Power was a Royal Navy admiral .",
+        "head_mention": "Arthur Mackenzie Power",
+        "tail_mention": "Royal Navy",
+        "head_position": [
+            0,
+            22
+        ],
+        "tail_position": [
+            29,
+            39
+        ]
+    },
+    {
+        "relation": "mouth of the watercourse",
+        "template": "[X] is a tributary of [Y] .",
+        "description": "the body of water to which the watercourse drains",
+        "type": "",
+        "label": "P403",
+        "sentence": "The White Nile river is a tributary of the Nile .",
+        "head_mention": "White Nile river",
+        "tail_mention": "Nile",
+        "head_position": [
+            4,
+            20
+        ],
+        "tail_position": [
+            10,
+            14
+        ]
+    },
+    {
+        "relation": "nominated for",
+        "template": "[X] was nominated for the [Y] .",
+        "description": "award nomination received by a person, organisation or creative work",
+        "type": "",
+        "label": "P1411",
+        "sentence": "Spirited Away was nominated for Best Animated Feature .",
+        "head_mention": "Spirited Away",
+        "tail_mention": "Best Animated Feature",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            32,
+            53
+        ]
+    },
+    {
+        "relation": "movement",
+        "template": "[Y] is associated with [X] .",
+        "description": "literary, artistic, scientific or philosophical movement associated with this person or work",
+        "type": "",
+        "label": "P135",
+        "sentence": "Post-impressionist movement is associated with Vincent Willem van Gogh .",
+        "head_mention": "Vincent Willem van Gogh",
+        "tail_mention": "Post-impressionist",
+        "head_position": [
+            47,
+            70
+        ],
+        "tail_position": [
+            0,
+            18
+        ]
+    },
+    {
+        "relation": "successful candidate",
+        "template": "[Y] was elected in [X] .",
+        "description": "person(s) elected after the election",
+        "type": "",
+        "label": "P991",
+        "sentence": "Obama was elected in 2009 .",
+        "head_mention": "2009",
+        "tail_mention": "Obama",
+        "head_position": [
+            21,
+            25
+        ],
+        "tail_position": [
+            0,
+            5
+        ]
+    },
+    {
+        "relation": "followed by",
+        "template": "[X] was followed by [Y] .",
+        "description": "immediately following item in some series of which the subject is part",
+        "type": "",
+        "label": "P156",
+        "sentence": "iPad Air 2 was followed by iPad Air 3 .",
+        "head_mention": "iPad Air 2",
+        "tail_mention": "iPad Air 3",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            27,
+            37
+        ]
+    },
+    {
+        "relation": "manufacturer",
+        "template": "[X] was made by [Y] .",
+        "description": "manufacturer or producer of this product",
+        "type": "",
+        "label": "P176",
+        "sentence": "iPhone was made by Foxconn .",
+        "head_mention": "iPhone",
+        "tail_mention": "Foxconn",
+        "head_position": [
+            0,
+            6
+        ],
+        "tail_position": [
+            19,
+            26
+        ]
+    },
+    {
+        "relation": "instance of",
+        "template": "[X] is a [Y] .",
+        "description": "that class of which this subject is a particular example and member",
+        "type": "",
+        "label": "P31",
+        "sentence": "Siamese is a cat breed .",
+        "head_mention": "Siamese",
+        "tail_mention": "cat breed",
+        "head_position": [
+            0,
+            7
+        ],
+        "tail_position": [
+            13,
+            22
+        ]
+    },
+    {
+        "relation": "after a work by",
+        "template": "[X] is based on a work by [Y] .",
+        "description": "artist whose work strongly inspired/ was copied in this item",
+        "type": "",
+        "label": "P1877",
+        "sentence": "Harry Potter and the Cursed Child is based on a work by J. K. Rowling .",
+        "head_mention": "Harry Potter and the Cursed Child",
+        "tail_mention": "J. K. Rowling",
+        "head_position": [
+            0,
+            33
+        ],
+        "tail_position": [
+            56,
+            69
+        ]
+    },
+    {
+        "relation": "member of political party",
+        "template": "[X] was a member of the [Y] .",
+        "description": "the political party of which this politician is or has been a member",
+        "type": "",
+        "label": "P102",
+        "sentence": "David Cameron was a member of the Conservative Party .",
+        "head_mention": "David Cameron",
+        "tail_mention": "Conservative Party",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            34,
+            52
+        ]
+    },
+    {
+        "relation": "licensed to broadcast to",
+        "template": "[X] is a station licensed to [Y] .",
+        "description": "place that a radio/TV station is licensed/required to broadcast to",
+        "type": "",
+        "label": "P1408",
+        "sentence": "Tokyo FM is a radio station in Chiyoda, Tokyo, Japan .",
+        "head_mention": "Tokyo FM",
+        "tail_mention": "Chiyoda, Tokyo, Japan",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            31,
+            52
+        ]
+    },
+    {
+        "relation": "headquarters location",
+        "template": "[X] 's headquarter is located in [Y] .",
+        "description": "specific location where an organization’s headquarters is or has been situated",
+        "type": "",
+        "label": "P159",
+        "sentence": "Facebook 's headquarter is located in Menlo Park, California, United States .",
+        "head_mention": "Facebook",
+        "tail_mention": "Menlo Park, California, United States",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            38,
+            75
+        ]
+    },
+    {
+        "relation": "sibling",
+        "template": "[X] and [Y] are siblings.",
+        "description": "sibling",
+        "type": "",
+        "label": "P3373",
+        "sentence": "Alexander Watson is the brother of Emma Watson .",
+        "head_mention": "Alexander Watson",
+        "tail_mention": "Emma Watson",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            35,
+            46
+        ]
+    },
+    {
+        "relation": "instrument",
+        "template": "[X] played [Y] .",
+        "description": "musical instrument that a person plays",
+        "type": "",
+        "label": "P1303",
+        "sentence": "Yiruma plays piano .",
+        "head_mention": "Yiruma",
+        "tail_mention": "piano",
+        "head_position": [
+            0,
+            6
+        ],
+        "tail_position": [
+            13,
+            18
+        ]
+    },
+    {
+        "relation": "country",
+        "template": "[X] was in [Y] .",
+        "description": "sovereign state of this item; don’t use on humans",
+        "type": "",
+        "label": "P17",
+        "sentence": "Corfu island is in Greece .",
+        "head_mention": "Corfu",
+        "tail_mention": "Greece",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            19,
+            25
+        ]
+    },
+    {
+        "relation": "occupation",
+        "template": "[X] 's occupation is a [Y] .",
+        "description": "occupation of a person",
+        "type": "",
+        "label": "P106",
+        "sentence": "Richard Phillips Feynman was an American theoretical physicist .",
+        "head_mention": "Richard Phillips Feynman",
+        "tail_mention": "physicist",
+        "head_position": [
+            0,
+            24
+        ],
+        "tail_position": [
+            53,
+            62
+        ]
+    },
+    {
+        "relation": "residence",
+        "template": "[X] is in [Y] .",
+        "description": "the place where the person is, or has been, resident",
+        "type": "",
+        "label": "P551",
+        "sentence": "Richard Feynman lived in New York .",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "New York",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            25,
+            33
+        ]
+    },
+    {
+        "relation": "work location",
+        "template": "[X] worked in [Y] .",
+        "description": "location where persons were active",
+        "type": "",
+        "label": "P937",
+        "sentence": "Stephen Hawking worked in Cambridge .",
+        "head_mention": "Stephen Hawking",
+        "tail_mention": "Cambridge",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            26,
+            35
+        ]
+    },
+    {
+        "relation": "subsidiary",
+        "template": "[Y] is a child organization of [X] .",
+        "description": "subsidiary of a company or organization",
+        "type": "",
+        "label": "P355",
+        "sentence": "Cafe Nero is a child organization of Rome Bidco .",
+        "head_mention": "Rome Bidco",
+        "tail_mention": "Cafe Nero",
+        "head_position": [
+            37,
+            47
+        ],
+        "tail_position": [
+            0,
+            9
+        ]
+    },
+    {
+        "relation": "participant",
+        "template": "[Y] participated in [X] .",
+        "description": "person, group of people or organization (object) that actively takes/took part in the event (subject)",
+        "type": "",
+        "label": "P710",
+        "sentence": "Molly Hocking participated in The Voice UK 2019 .",
+        "head_mention": "The Voice UK 2019",
+        "tail_mention": "Molly Hocking",
+        "head_position": [
+            30,
+            47
+        ],
+        "tail_position": [
+            0,
+            13
+        ]
+    },
+    {
+        "relation": "operator",
+        "template": "[Y] operated the [X] .",
+        "description": "person or organization that operates the equipment, facility, or service",
+        "type": "",
+        "label": "P137",
+        "sentence": "Stagecoach Manchester operated the local bus services in Greater Manchester .",
+        "head_mention": "local bus services",
+        "tail_mention": "Stagecoach Manchester",
+        "head_position": [
+            35,
+            53
+        ],
+        "tail_position": [
+            0,
+            21
+        ]
+    },
+    {
+        "relation": "characters",
+        "template": "[Y] is a character in [X] .",
+        "description": "characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)",
+        "type": "",
+        "label": "P674",
+        "sentence": "Hermione is a character in Harry Potter .",
+        "head_mention": "Harry Potter",
+        "tail_mention": "Hermione",
+        "head_position": [
+            27,
+            39
+        ],
+        "tail_position": [
+            0,
+            8
+        ]
+    },
+    {
+        "relation": "occupant",
+        "template": "[Y] is occupied by [X] .",
+        "description": "person or organization occupying a building or facility",
+        "type": "",
+        "label": "P466",
+        "sentence": "Old Trafford Stadium is occupied by Manchester United .",
+        "head_mention": "Old Trafford Stadium",
+        "tail_mention": "Manchester United",
+        "tail_position": [
+            36,
+            53
+        ],
+        "head_position": [
+            0,
+            20
+        ]
+    },
+    {
+        "relation": "genre",
+        "template": "[X] is a [Y] .",
+        "description": "creative work’s genre or an artist’s field of work ",
+        "type": "",
+        "label": "P136",
+        "sentence": "The Beatles were an English rock band .",
+        "head_mention": "The Beatles",
+        "tail_mention": "rock",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            28,
+            32
+        ]
+    },
+    {
+        "relation": "operating system",
+        "template": "[X] can be installed on [Y] operating system .",
+        "description": "operating system (OS) on which a software works or the OS installed on hardware",
+        "type": "",
+        "label": "P306",
+        "sentence": "Microsoft Word can be installed on Android operating system .",
+        "head_mention": "Microsoft Word",
+        "tail_mention": "Android",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            35,
+            42
+        ]
+    },
+    {
+        "relation": "owned by",
+        "template": "[X] is owned by [Y] .",
+        "description": "owner of the subject",
+        "type": "",
+        "label": "P127",
+        "sentence": "WhatsApp is owned by Facebook .",
+        "head_mention": "WhatsApp",
+        "tail_mention": "Facebook",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            21,
+            29
+        ]
+    },
+    {
+        "relation": "platform",
+        "template": "[X] was released for [Y] .",
+        "description": "platform for which a work has been developed or released / specific platform version of a software developed",
+        "type": "",
+        "label": "P400",
+        "sentence": "Contra: Rogue Corps was released for Playstation 4 .",
+        "head_mention": "Contra: Rogue Corps",
+        "tail_mention": "Playstation 4",
+        "head_position": [
+            0,
+            19
+        ],
+        "tail_position": [
+            37,
+            50
+        ]
+    },
+    {
+        "relation": "tributary",
+        "template": "[Y] is a tributary of [X] .",
+        "description": "stream or river that flows into this main stem (or parent) river",
+        "type": "",
+        "label": "P974",
+        "sentence": "The White Nile river is a tributary of the Nile .",
+        "head_mention": "Nile",
+        "tail_mention": "White Nile river",
+        "head_position": [
+            10,
+            14
+        ],
+        "tail_position": [
+            4,
+            20
+        ]
+    },
+    {
+        "relation": "winner",
+        "template": "[Y] won [X] .",
+        "description": "winner of an event - do not use for wars or battles",
+        "type": "",
+        "label": "P1346",
+        "sentence": "Lara Dutta was the winner of the Miss Universe 2000 pageant .",
+        "head_mention": "Miss Universe 2000 pageant",
+        "tail_mention": "Lara Dutta",
+        "head_position": [
+            33,
+            59
+        ],
+        "tail_position": [
+            0,
+            10
+        ]
+    },
+    {
+        "relation": "said to be the same as",
+        "template": "[X] is also called [Y] .",
+        "description": "this item is said to be the same as that item, but the statement is disputed",
+        "type": "",
+        "label": "P460",
+        "sentence": "Mary I of England was also known as bloody Mary .",
+        "head_mention": "Mary I of England",
+        "tail_mention": "bloody Mary",
+        "head_position": [
+            0,
+            17
+        ],
+        "tail_position": [
+            36,
+            47
+        ]
+    },
+    {
+        "relation": "composer",
+        "template": "[X] was written by [Y] .",
+        "description": "person(s) who wrote the music",
+        "type": "",
+        "label": "P86",
+        "sentence": "River flows in you was written by Yiruma .",
+        "head_mention": "River flows in you",
+        "tail_mention": "Yiruma",
+        "head_position": [
+            0,
+            18
+        ],
+        "tail_position": [
+            34,
+            40
+        ]
+    },
+    {
+        "relation": "league",
+        "template": "[X] plays in [Y] league .",
+        "description": "league in which team or player plays or has played in",
+        "type": "",
+        "label": "P118",
+        "sentence": "Alessandro del Piero plays in Serie A league .",
+        "head_mention": "Alessandro del Piero",
+        "tail_mention": "Serie A",
+        "head_position": [
+            0,
+            20
+        ],
+        "tail_position": [
+            30,
+            37
+        ]
+    },
+    {
+        "relation": "record label",
+        "template": "[X] was released by [Y] .",
+        "description": "brand and trademark associated with the marketing of subject music recordings and music videos",
+        "type": "",
+        "label": "P264",
+        "sentence": "Abbey Road was released by Apple Records .",
+        "head_mention": "Abbey Road",
+        "tail_mention": "Apple Records",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            27,
+            40
+        ]
+    },
+    {
+        "relation": "distributor",
+        "template": "[X] was released by [Y] .",
+        "description": "distributor of a creative work",
+        "type": "",
+        "label": "P750",
+        "sentence": "Spirited Away was released by Toho .",
+        "head_mention": "Spirited Away",
+        "tail_mention": "Toho",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            30,
+            34
+        ]
+    },
+    {
+        "relation": "screenwriter",
+        "template": "[Y] is the screenwriter of [X] .",
+        "description": "author(s) of the screenplay or script for this work",
+        "type": "",
+        "label": "P58",
+        "sentence": "Andrew Lloyd Webber is the screenwriter of the phantom of the opera .",
+        "head_mention": "the phantom of the opera",
+        "tail_mention": "Andrew Lloyd Webber",
+        "head_position": [
+            43,
+            67
+        ],
+        "tail_position": [
+            0,
+            19
+        ]
+    },
+    {
+        "relation": "sports season of league or competition",
+        "template": "There is a season of [Y] in [X] .",
+        "description": "property that shows the competition of which the item is a season",
+        "type": "",
+        "label": "P3450",
+        "sentence": "There is a season of UEFA Champions League in 2016 .",
+        "head_mention": "2016",
+        "tail_mention": "UEFA Champions League",
+        "head_position": [
+            46,
+            50
+        ],
+        "tail_position": [
+            21,
+            42
+        ]
+    },
+    {
+        "relation": "taxon rank",
+        "template": "[X] is a [Y] in the taxonomic hierarchy .",
+        "description": "level in a taxonomic hierarchy",
+        "type": "",
+        "label": "P105",
+        "sentence": "Felidae is a family in the taxonomic hierarchy .",
+        "head_mention": "Felidae",
+        "tail_mention": "family",
+        "head_position": [
+            0,
+            7
+        ],
+        "tail_position": [
+            13,
+            19
+        ]
+    },
+    {
+        "relation": "location",
+        "template": "[X] was located in [Y] .",
+        "description": "location of the item, physical object or event is within",
+        "type": "",
+        "label": "P276",
+        "sentence": "The 2008 Summer Olympics was located in Beijing .",
+        "head_mention": "The 2008 Summer Olympics",
+        "tail_mention": "Beijing",
+        "head_position": [
+            0,
+            24
+        ],
+        "tail_position": [
+            40,
+            47
+        ]
+    },
+    {
+        "relation": "field of work",
+        "template": "[X] works in [Y] .",
+        "description": "field of work",
+        "type": "",
+        "label": "P101",
+        "sentence": "Alan Turing was a pioneer of computer science .",
+        "head_mention": "Alan Turing",
+        "tail_mention": "computer science",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            29,
+            45
+        ]
+    },
+    {
+        "relation": "language of work or name",
+        "template": "[X] 's main language is [Y] .",
+        "description": "language associated with this work or name",
+        "type": "",
+        "label": "P407",
+        "sentence": "Les Miserables is a French historical novel .",
+        "head_mention": "Les Miserables",
+        "tail_mention": "French",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            20,
+            26
+        ]
+    },
+    {
+        "relation": "applies to jurisdiction",
+        "template": "[X] jurisdiction applies to [Y] .",
+        "description": "the item (an institution, law, public office ...) belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)",
+        "type": "",
+        "label": "P1001",
+        "sentence": "Mayor of Paris applies jurisdiction to Paris .",
+        "head_mention": "Mayor of Paris",
+        "tail_mention": "Paris",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            39,
+            44
+        ]
+    },
+    {
+        "relation": "notable work",
+        "template": "[X] is known for [Y] .",
+        "description": "notable scientific, artistic or literary work, or other work of significance among subject’s works",
+        "type": "",
+        "label": "P800",
+        "sentence": "Vincent van Gogh is known for the Starry Night .",
+        "head_mention": "Vincent van Gogh",
+        "tail_mention": "the Starry Night",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            30,
+            46
+        ]
+    },
+    {
+        "relation": "located in the administrative territorial entity",
+        "template": "[X] is located in [Y] .",
+        "description": "the item is located on the territory of the following administrative entity",
+        "type": "",
+        "label": "P131",
+        "sentence": "Ho Chi Minh city is located in the South of Vietnam .",
+        "head_mention": "Ho Chi Minh city",
+        "tail_mention": "Vietnam",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            44,
+            51
+        ]
+    },
+    {
+        "relation": "crosses",
+        "template": "[X] is a major crossing of [Y] .",
+        "description": "obstacle (body of water, road, ...) which this bridge crosses over or this tunnel goes under",
+        "type": "",
+        "label": "P177",
+        "sentence": "Channel Tunnel crosses English Channel .",
+        "head_mention": "Channel Tunnel",
+        "tail_mention": "English Channel",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            23,
+            38
+        ]
+    },
+    {
+        "relation": "original language of film or TV show",
+        "template": "[X] was released originally in [Y] .",
+        "description": "language in which a film or a performance work was originally created",
+        "type": "",
+        "label": "P364",
+        "sentence": "Friends is one of the most-watched English language TV shows .",
+        "head_mention": "Friends",
+        "tail_mention": "English",
+        "head_position": [
+            0,
+            7
+        ],
+        "tail_position": [
+            35,
+            42
+        ]
+    },
+    {
+        "relation": "competition class",
+        "template": "[X] competed in the [Y] class .",
+        "description": "official classification by a regulating body under which the subject (events, teams, participants, or equipment) qualifies for inclusion",
+        "type": "",
+        "label": "P2094",
+        "sentence": "Mike Tyson was a heavyweight boxer .",
+        "head_mention": "Mike Tyson",
+        "tail_mention": "heavyweight",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            17,
+            28
+        ]
+    },
+    {
+        "relation": "part of",
+        "template": "[X] is part of [Y] .",
+        "description": "object of which the subject is a part. ",
+        "type": "",
+        "label": "P361",
+        "sentence": "Netherlands is part of Europe .",
+        "head_mention": "Netherlands",
+        "tail_mention": "Europe",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            23,
+            29
+        ]
+    },
+    {
+        "relation": "sport",
+        "template": "[X] played [Y] .",
+        "description": "sport in which the entity participates or belongs to",
+        "type": "",
+        "label": "P641",
+        "sentence": "Roger Federer is a tennis player .",
+        "head_mention": "Roger Federer",
+        "tail_mention": "tennis",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            19,
+            25
+        ]
+    },
+    {
+        "relation": "constellation",
+        "template": "[X] is located in the constellation [Y] .",
+        "description": "the area of the celestial sphere of which the subject is a part (from a scientific standpoint, not an astrological one)",
+        "type": "",
+        "label": "P59",
+        "sentence": "Andromeda Galaxy is in the constellation Andromeda .",
+        "head_mention": "Andromeda Galaxy",
+        "tail_mention": "Andromeda",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            41,
+            50
+        ]
+    },
+    {
+        "relation": "position played on team / speciality",
+        "template": "[X] played [Y] in the team .",
+        "description": "position or specialism of a player on a team, e.g. Small Forward",
+        "type": "",
+        "label": "P413",
+        "sentence": "Cristiano Ronaldo plays as a forward for Juventus .",
+        "head_mention": "Cristiano Ronaldo",
+        "tail_mention": "forward",
+        "head_position": [
+            0,
+            17
+        ],
+        "tail_position": [
+            29,
+            36
+        ]
+    },
+    {
+        "relation": "located in or next to body of water",
+        "template": "[X] is located in the [Y] .",
+        "description": "sea, lake or river",
+        "type": "",
+        "label": "P206",
+        "sentence": "Easter Island is an island in Pacific Ocean .",
+        "head_mention": "Easter Island",
+        "tail_mention": "Pacific Ocean",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            30,
+            43
+        ]
+    },
+    {
+        "relation": "voice type",
+        "template": "[X] is a [Y] voice .",
+        "description": "person’s voice type. expected values: soprano, mezzo-soprano, contralto, countertenor, tenor, baritone, bass (and derivatives)",
+        "type": "",
+        "label": "P412",
+        "sentence": "Enrico Caruso has a voice of tenor .",
+        "head_mention": "Enrico Caruso",
+        "tail_mention": "tenor",
+        "head_position": [
+            0,
+            13
+        ],
+        "tail_position": [
+            29,
+            34
+        ]
+    },
+    {
+        "relation": "follows",
+        "template": "[X] was after [Y] .",
+        "description": "immediately prior item in some series of which the subject is part",
+        "type": "",
+        "label": "P155",
+        "sentence": "Monday is after Sunday .",
+        "head_mention": "Monday",
+        "tail_mention": "Sunday",
+        "head_position": [
+            0,
+            6
+        ],
+        "tail_position": [
+            16,
+            22
+        ]
+    },
+    {
+        "relation": "spouse",
+        "template": "[X] is married to [Y] .",
+        "description": "the subject has the object as their spouse (husband, wife, partner, etc.)",
+        "type": "",
+        "label": "P26",
+        "sentence": "Marie Curie is married to Pierre Curie .",
+        "head_mention": "Marie Curie ",
+        "tail_mention": "Pierre Curie",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            26,
+            38
+        ]
+    },
+    {
+        "relation": "military rank",
+        "template": "[X] is [Y] in military .",
+        "description": "military rank achieved by a person (should usually have a ”start date” qualifier), or military rank associated with a position",
+        "type": "",
+        "label": "P410",
+        "sentence": "Napoleons served as a general in the French army .",
+        "head_mention": "Napoleons ",
+        "tail_mention": "general",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            22,
+            29
+        ]
+    },
+    {
+        "relation": "mother",
+        "template": "[X] 's mother is [Y] .",
+        "description": "female parent of the subject",
+        "type": "",
+        "label": "P25",
+        "sentence": "Marie Curie is the mother of Irène Joliot-Curie .",
+        "head_mention": "Irène Joliot-Curie",
+        "tail_mention": "Marie Curie",
+        "head_position": [
+            29,
+            47
+        ],
+        "tail_position": [
+            0,
+            11
+        ]
+    },
+    {
+        "relation": "member of",
+        "template": "[X] is a member of [Y] .",
+        "description": "organization or club to which the subject belongs",
+        "type": "",
+        "label": "P463",
+        "sentence": "Iron Man is a member of Avengers .",
+        "head_mention": "Iron Man",
+        "tail_mention": "Avengers",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            24,
+            32
+        ]
+    },
+    {
+        "relation": "child",
+        "template": "[Y] is [X] 's child .",
+        "description": "subject has the object in their family as their offspring son or daughter (independently of their age)",
+        "type": "",
+        "label": "P40",
+        "sentence": "Michael Douglas is a child of Kirk Douglas .",
+        "head_mention": "Kirk Douglas",
+        "tail_mention": "Michael Douglas",
+        "head_position": [
+            30,
+            42
+        ],
+        "tail_position": [
+            0,
+            15
+        ]
+    },
+    {
+        "relation": "main subject",
+        "template": "[X] 's main topic is [Y] .",
+        "description": "primary topic of a work ",
+        "type": "",
+        "label": "P921",
+        "sentence": "Robert Langdon is the main subject of The Da Vinci Code.",
+        "head_mention": "Robert Langdon",
+        "tail_mention": "The Da Vinci Code",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            38,
+            55
+        ]
+    }
+]

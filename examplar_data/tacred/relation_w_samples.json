@@ -1,0 +1,742 @@
+[
+    {
+        "relation": "org:alternate_names",
+        "template": "[X] ( [Y] ) .",
+        "label": "org:alternate_names",
+        "description": "org:alternate_names",
+        "type": "",
+        "head_mention": "World Health Organization",
+        "tail_mention": "WHO",
+        "sentence": "The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health .",
+        "head_type": "ORGANIZATION",
+        "tail_type": "ORGANIZATION",
+        "head_position": [
+            4,
+            29
+        ],
+        "tail_position": [
+            31,
+            34
+        ]
+    },
+    {
+        "relation": "org:city_of_headquarters",
+        "template": "[X] is located in [Y] .",
+        "label": "org:city_of_headquarters",
+        "description": "org:city_of_headquarters",
+        "type": "LAMA",
+        "head_mention": "Facebook",
+        "tail_mention": "Menlo Park, California, United States",
+        "sentence": "Facebook 's headquarter is located in Menlo Park, California, United States .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            38,
+            75
+        ]
+    },
+    {
+        "relation": "org:country_of_headquarters",
+        "template": "[X] is located in [Y] .",
+        "label": "org:country_of_headquarters",
+        "description": "org:country_of_headquarters",
+        "type": "LAMA",
+        "head_mention": "Facebook",
+        "tail_mention": "United States",
+        "sentence": "Facebook 's headquarter is located in Menlo Park, California, United States .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            62,
+            75
+        ]
+    },
+    {
+        "relation": "org:dissolved",
+        "template": "[X] filed [Y] .",
+        "label": "org:dissolved",
+        "description": "org:dissolved",
+        "type": "",
+        "head_mention": "O.S.S.",
+        "tail_mention": "1945",
+        "sentence": "President Truman dissolved the O.S.S. in 1945 .",
+        "head_position": [
+            31,
+            37
+        ],
+        "tail_position": [
+            41,
+            45
+        ]
+    },
+    {
+        "relation": "org:founded",
+        "template": "[X] was founded in [Y] .",
+        "label": "org:founded",
+        "description": "org:founded",
+        "type": "LAMA",
+        "head_mention": "Facebook",
+        "tail_mention": "2004",
+        "sentence": "Facebook was founded in 2004 .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            24,
+            28
+        ]
+    },
+    {
+        "relation": "org:founded_by",
+        "template": "[X] was founded by [Y] .",
+        "label": "org:founded_by",
+        "description": "org:founded_by",
+        "type": "",
+        "head_mention": "Facebook",
+        "tail_mention": "Mark Zuckerberg",
+        "sentence": "Facebook was founded by Mark Zuckerberg .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            24,
+            39
+        ]
+    },
+    {
+        "relation": "org:member_of",
+        "template": "[X] is a member of [Y] .",
+        "label": "org:member_of",
+        "description": "org:member_of",
+        "type": "",
+        "head_mention": "Germany",
+        "tail_mention": "European Union",
+        "sentence": "Germany is a founding member of the European Union .",
+        "head_position": [
+            0,
+            7
+        ],
+        "tail_position": [
+            36,
+            50
+        ]
+    },
+    {
+        "relation": "org:members",
+        "template": "[Y] is a member of [X] .",
+        "label": "org:members",
+        "description": "org:members",
+        "type": "",
+        "head_mention": "European Union",
+        "tail_mention": "Germany",
+        "sentence": "Germany is a founding member of the European Union .",
+        "head_position": [
+            36,
+            50
+        ],
+        "tail_position": [
+            0,
+            7
+        ]
+    },
+    {
+        "relation": "org:number_of_employees/members",
+        "template": "[X] has [Y] employees .",
+        "label": "org:number_of_employees/members",
+        "description": "org:number_of_employees/members",
+        "type": "",
+        "head_mention": "IBM",
+        "tail_mention": "383800",
+        "sentence": "IBM total number of employees in 2019 was 383800 .",
+        "head_position": [
+            0,
+            3
+        ],
+        "tail_position": [
+            42,
+            48
+        ]
+    },
+    {
+        "relation": "org:parents",
+        "template": "[X] is part of [Y] .",
+        "label": "org:parents",
+        "description": "org:parents",
+        "type": "",
+        "head_mention": "Alphabet",
+        "tail_mention": "Google",
+        "sentence": "Alphabet is the parent of Google .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            26,
+            32
+        ]
+    },
+    {
+        "relation": "org:political/religious_affiliation",
+        "template": "[X] is a [Y] affilication .",
+        "label": "org:political/religious_affiliation",
+        "description": "org:political/religious_affiliation",
+        "type": "",
+        "head_mention": "Tearfund",
+        "tail_mention": "Christian",
+        "sentence": "Tearfund is an international Christian relief and development agency .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            29,
+            38
+        ]
+    },
+    {
+        "relation": "org:shareholders",
+        "template": "[Y] is a shareholder of [X] .",
+        "label": "org:shareholders",
+        "description": "org:shareholders",
+        "type": "",
+        "head_mention": "Google",
+        "tail_mention": "Larry Page",
+        "sentence": "The largest shareholder of Google is Larry Page .",
+        "head_position": [
+            37,
+            47
+        ],
+        "tail_position": [
+            27,
+            33
+        ]
+    },
+    {
+        "relation": "org:stateorprovince_of_headquarters",
+        "template": "The headquarter of [X] is in [Y] .",
+        "label": "org:stateorprovince_of_headquarters",
+        "description": "org:stateorprovince_of_headquarters",
+        "type": "",
+        "head_mention": "Facebook",
+        "tail_mention": "California",
+        "sentence": "Facebook 's headquarter is located in Menlo Park, California, United States .",
+        "head_position": [
+            0,
+            8
+        ],
+        "tail_position": [
+            50,
+            60
+        ]
+    },
+    {
+        "relation": "org:subsidiaries",
+        "template": "[X] owns [Y] .",
+        "label": "org:subsidiaries",
+        "description": "org:subsidiaries",
+        "type": "",
+        "head_mention": "Rome Bidco",
+        "tail_mention": "Cafe Nero",
+        "sentence": "Cafe Nero is a child organization of Rome Bidco .",
+        "head_position": [
+            37,
+            47
+        ],
+        "tail_position": [
+            0,
+            9
+        ]
+    },
+    {
+        "relation": "org:top_members/employees",
+        "template": "[Y] is [X] 's executive director .",
+        "label": "org:top_members/employees",
+        "description": "org:top_members/employees",
+        "type": "",
+        "head_mention": "WHO",
+        "tail_mention": "Tedros Adhanom",
+        "sentence": "Tedros Adhanom is the WHO current director .",
+        "head_position": [
+            22,
+            25
+        ],
+        "tail_position": [
+            0,
+            14
+        ]
+    },
+    {
+        "relation": "org:website",
+        "template": "[X] 's website is [Y] .",
+        "label": "org:website",
+        "description": "org:website",
+        "type": "",
+        "head_mention": "United Kingdom public sector information",
+        "tail_mention": "gov.uk",
+        "sentence": "gov.uk is a United Kingdom public sector information website .",
+        "head_position": [
+            12,
+            52
+        ],
+        "tail_position": [
+            0,
+            6
+        ]
+    },
+    {
+        "relation": "per:age",
+        "template": "[X] is [Y] year old .",
+        "label": "per:age",
+        "description": "per:age",
+        "type": "",
+        "head_mention": "Peter Higgs",
+        "tail_mention": "90",
+        "sentence": "Peter Higgs is now at the age of 90 .",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            33,
+            35
+        ]
+    },
+    {
+        "relation": "per:alternate_names",
+        "template": "[X] is also called [Y] .",
+        "label": "per:alternate_names",
+        "description": "per:alternate_names",
+        "type": "",
+        "head_mention": "Mary I of England",
+        "tail_mention": "bloody Mary",
+        "sentence": "Mary I of England was also known as bloody Mary .",
+        "head_position": [
+            0,
+            17
+        ],
+        "tail_position": [
+            36,
+            47
+        ]
+    },
+    {
+        "relation": "per:cause_of_death",
+        "template": "[X] died of [Y] .",
+        "label": "per:cause_of_death",
+        "description": "per:cause_of_death",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "abdominal cancer",
+        "sentence": "Richard Feynman died of abdominal cancer .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            24,
+            40
+        ]
+    },
+    {
+        "relation": "per:charges",
+        "template": "[X] was charged for [Y] .",
+        "label": "per:charges",
+        "description": "per:charges",
+        "type": "",
+        "head_mention": "Jeffrey Dahmer",
+        "tail_mention": "murders",
+        "sentence": "Jeffrey Dahmer was convicted of 15 murders .",
+        "head_position": [
+            0,
+            14
+        ],
+        "tail_position": [
+            35,
+            42
+        ]
+    },
+    {
+        "relation": "per:children",
+        "template": "[Y] is [X] 's child .",
+        "label": "per:children",
+        "description": "per:children",
+        "type": "",
+        "head_mention": "Kirk Douglas",
+        "tail_mention": "Michael Douglas",
+        "sentence": "Michael Douglas is a child of Kirk Douglas .",
+        "head_position": [
+            30,
+            42
+        ],
+        "tail_position": [
+            0,
+            15
+        ]
+    },
+    {
+        "relation": "per:cities_of_residence",
+        "template": "[X] live in [Y] .",
+        "label": "per:cities_of_residence",
+        "description": "per:cities_of_residence",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "New York",
+        "sentence": "Richard Feynman lived in New York .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            25,
+            33
+        ]
+    },
+    {
+        "relation": "per:city_of_birth",
+        "template": "[X] was born in [Y] .",
+        "label": "per:city_of_birth",
+        "description": "per:city_of_birth",
+        "type": "",
+        "head_mention": "Obama",
+        "tail_mention": "Honolulu",
+        "sentence": "Obama was born in Honolulu, Hawaii .",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            18,
+            26
+        ]
+    },
+    {
+        "relation": "per:city_of_death",
+        "template": "[X] died in [Y] .",
+        "label": "per:city_of_death",
+        "description": "per:city_of_death",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "Los Angeles",
+        "sentence": "Richard Feynman died in Los Angeles , California , US .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            24,
+            35
+        ]
+    },
+    {
+        "relation": "per:countries_of_residence",
+        "template": "[X] live in [Y] .",
+        "label": "per:countries_of_residence",
+        "description": "per:countries_of_residence",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "US",
+        "sentence": "Richard Feynman lived in US .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            25,
+            27
+        ]
+    },
+    {
+        "relation": "per:country_of_birth",
+        "template": "[X] live in [Y] .",
+        "label": "per:country_of_birth",
+        "description": "per:country_of_birth",
+        "type": "",
+        "head_mention": "Obama",
+        "tail_mention": "USA",
+        "sentence": "Obama was born in the USA .",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            22,
+            25
+        ]
+    },
+    {
+        "relation": "per:country_of_death",
+        "template": "[X] died in [Y] .",
+        "label": "per:country_of_death",
+        "description": "per:country_of_death",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "US",
+        "sentence": "Richard Feynman died in Los Angeles , California , US .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            51,
+            53
+        ]
+    },
+    {
+        "relation": "per:date_of_birth",
+        "template": "[X] was born on [Y] .",
+        "label": "per:date_of_birth",
+        "description": "per:date_of_birth",
+        "type": "",
+        "head_mention": "Obama",
+        "tail_mention": "1961",
+        "sentence": "Obama was born in 1961 .",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            18,
+            22
+        ]
+    },
+    {
+        "relation": "per:date_of_death",
+        "template": "[X] died on [Y] .",
+        "label": "per:date_of_death",
+        "description": "per:date_of_death",
+        "type": "",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "1988",
+        "sentence": "Richard Feynman died in 1988 .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            24,
+            28
+        ]
+    },
+    {
+        "relation": "per:employee_of",
+        "template": "[X] is employed by [Y] .",
+        "label": "per:employee_of",
+        "description": "per:employee_of",
+        "type": "",
+        "head_mention": "Kayleigh McEnany",
+        "tail_mention": "White House",
+        "sentence": "Kayleigh McEnany is the current White House press secretary .",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            32,
+            43
+        ]
+    },
+    {
+        "relation": "per:origin",
+        "template": "[X] is [Y] .",
+        "label": "per:origin",
+        "description": "per:origin",
+        "type": "",
+        "head_mention": "Barack Obama",
+        "tail_mention": "American",
+        "sentence": "Barack Obama is an American politician .",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            19,
+            27
+        ]
+    },
+    {
+        "relation": "per:other_family",
+        "template": "[Y] is [X] 's family .",
+        "label": "per:other_family",
+        "description": "per:other_family",
+        "type": "",
+        "head_mention": "Barack Obama",
+        "tail_mention": "Craig Robinson",
+        "sentence": "Craig Robinson is Barack Obama 's brother in law .",
+        "head_position": [
+            18,
+            30
+        ],
+        "tail_position": [
+            0,
+            14
+        ]
+    },
+    {
+        "relation": "per:parents",
+        "template": "[X] is [Y] 's parent .",
+        "label": "per:parents",
+        "description": "per:parents",
+        "type": "",
+        "head_mention": "Fred Trump",
+        "tail_mention": "Donald Trump",
+        "sentence": "Fred Trump is Donald Trump 's father .",
+        "head_position": [
+            0,
+            10
+        ],
+        "tail_position": [
+            14,
+            26
+        ]
+    },
+    {
+        "relation": "per:religion",
+        "template": "[X] is [Y] .",
+        "label": "per:religion",
+        "description": "per:religion",
+        "type": "",
+        "head_mention": "Maximilian Kolbe",
+        "tail_mention": "Catholic",
+        "sentence": "Maximilian Kolbe is Catholic .",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            20,
+            28
+        ]
+    },
+    {
+        "relation": "per:schools_attended",
+        "template": "[X] graduated from [Y] .",
+        "label": "per:schools_attended",
+        "description": "per:schools_attended",
+        "type": "",
+        "head_mention": "Peter Higgs",
+        "tail_mention": "King 's College London",
+        "sentence": "Peter Higgs was awarded a PhD degree from King 's College London .",
+        "head_position": [
+            0,
+            11
+        ],
+        "tail_position": [
+            42,
+            64
+        ]
+    },
+    {
+        "relation": "per:siblings",
+        "template": "[X] is [Y] 's sister / brother .",
+        "label": "per:siblings",
+        "description": "per:siblings",
+        "type": "",
+        "head_mention": "Alexander Watson",
+        "tail_mention": "Emma Watson",
+        "sentence": "Alexander Watson is the brother of Emma Watson .",
+        "head_position": [
+            0,
+            16
+        ],
+        "tail_position": [
+            35,
+            46
+        ]
+    },
+    {
+        "relation": "per:spouse",
+        "template": "[X] married [Y] .",
+        "label": "per:spouse",
+        "description": "per:spouse",
+        "type": "",
+        "head_mention": "Marie Curie ",
+        "tail_mention": "Pierre Curie",
+        "sentence": "Marie Curie is married to Pierre Curie .",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            26,
+            38
+        ]
+    },
+    {
+        "relation": "per:stateorprovince_of_birth",
+        "template": "[X] was born in [Y] .",
+        "label": "per:stateorprovince_of_birth",
+        "description": "per:stateorprovince_of_birth",
+        "type": "",
+        "head_mention": "Obama",
+        "tail_mention": "Hawaii",
+        "sentence": "Obama was born in Honolulu, Hawaii .",
+        "head_position": [
+            0,
+            5
+        ],
+        "tail_position": [
+            28,
+            34
+        ]
+    },
+    {
+        "relation": "per:stateorprovince_of_death",
+        "template": "[X] died in [Y] .",
+        "label": "per:stateorprovince_of_death",
+        "description": "per:stateorprovince_of_death",
+        "type": "[X] live in [Y] .",
+        "head_mention": "Richard Feynman",
+        "tail_mention": "California",
+        "sentence": "Richard Feynman died in Los Angeles , California , U.S .",
+        "head_position": [
+            0,
+            15
+        ],
+        "tail_position": [
+            38,
+            48
+        ]
+    },
+    {
+        "relation": "per:stateorprovinces_of_residence",
+        "template": "[X] live in [Y] .",
+        "label": "per:stateorprovinces_of_residence",
+        "description": "per:stateorprovinces_of_residence",
+        "type": "",
+        "head_mention": "Barack Obama",
+        "tail_mention": "Washington",
+        "sentence": "Barack Obama lives in Washington .",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            22,
+            32
+        ]
+    },
+    {
+        "relation": "per:title",
+        "template": "[X] is the [Y] .",
+        "label": "per:title",
+        "description": "per:title",
+        "type": "",
+        "head_mention": "Barack Obama",
+        "tail_mention": "president",
+        "sentence": "Barack Obama was the 44th president of the United States .",
+        "head_position": [
+            0,
+            12
+        ],
+        "tail_position": [
+            26,
+            35
+        ]
+    }
+]
